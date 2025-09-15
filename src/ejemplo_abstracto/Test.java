@@ -8,13 +8,23 @@ package ejemplo_abstracto;
  *
  * @author patriciaortiz
  */
-public class Ejemplo_abstracto {
+public class Test {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+   
+    Perro perro = new Perro("Snoopy");
+    Gato gato = new Gato ("Cheto");
+    
+    perro.imprimirNombre();
+    perro.sonido();
+    
+    gato.imprimirNombre();
+    gato.sonido();
+    
     }
     
-}
+}//Test
